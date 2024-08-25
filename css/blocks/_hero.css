@@ -1,0 +1,32 @@
+.hero {
+	padding: 120px 0px 150px 0px;
+}
+
+.hero__container {
+	--container-width: 1244px;
+}
+
+.hero__content {
+	display: flex;
+	flex-direction: column;
+	gap: 50px;
+}
+
+.hero__title {
+	width: 726px;
+	font-weight: 900;
+	font-size: 55px;
+	line-height: 127%;
+	color: #fff;
+}
+
+.red__hero-span {
+	color: #b82121;
+}
+
+.hero__descr {
+	width: 660px;
+	font-weight: 400;
+	font-size: 18px;
+	color: #fff;
+}

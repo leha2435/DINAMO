@@ -1,0 +1,21 @@
+/* GLOBAL */
+@import url("_normalize.css");
+@import url("_fonts.css");
+@import url("_vars.css");
+@import url("_settings.css");
+
+/* BLOCKS */
+@import url("./blocks/_header.css");
+@import url("./blocks/_burger.css");
+@import url("./blocks/_hero.css");
+@import url("./blocks/_btn.css");
+@import url("./blocks/_taste.css");
+@import url("./blocks/_menu.css");
+@import url("./blocks/_slider.css");
+@import url("./blocks/_carousel.css");
+@import url("./blocks/_menu-media.css");
+@import url("./blocks/_delivery.css");
+@import url("./blocks/_gallery.css");
+@import url("./blocks/_gallery-slider.css");
+@import url("./blocks/_footer.css");
+@import url("./blocks/_media.css");

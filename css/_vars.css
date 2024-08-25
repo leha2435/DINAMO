@@ -1,0 +1,12 @@
+:root {
+	--red: #b82121;
+	--white: #ffffff;
+	--border-color: #393939;
+
+	--font-family: "Noto Sans", sans-serif;
+	--second-family: "Montserrat", sans-serif;
+	--third-family: "Roboto", sans-serif;
+
+	--container-width: 1440px;
+	--container-offset: 15px;
+}

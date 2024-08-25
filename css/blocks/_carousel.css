@@ -1,0 +1,29 @@
+.menu_carousel_section {
+	width: 100%;
+	height: 508px;
+}
+
+.carousel_container {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0px 0px;
+}
+
+.arrows {
+	position: absolute;
+	display: flex;
+	justify-content: space-between;
+}
+
+.arrows-redact {
+	position: absolute;
+	display: flex;
+	justify-content: space-between;
+}
+
+.carousel-list {
+	display: flex;
+	gap: 5px;
+}

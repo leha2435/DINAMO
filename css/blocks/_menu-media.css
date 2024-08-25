@@ -1,0 +1,85 @@
+.media__box {
+	display: none;
+}
+
+.media__list {
+	display: flex;
+	gap: 25px;
+	flex-wrap: wrap;
+}
+
+.media__img-box {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 20px;
+	background-color: rgba(0, 0, 0, 0.4);
+	width: 355px;
+	height: 300px;
+}
+
+.Cold-appetizers {
+	background-image: url(../../images/media-coldfood.jpg);
+	background-size: cover;
+}
+
+.Salads {
+	background-image: url(../../images/media-salats.jpg);
+	background-size: cover;
+}
+
+.Bakery {
+	background-image: url(../../images/media-fritery.jpg);
+	background-size: cover;
+}
+
+.Soups {
+	background-image: url(../../images/media-soups.jpg);
+	background-size: cover;
+}
+
+.Dishes-on-the-grill {
+	background-image: url(../../images/media-mangal.jpg);
+	background-size: cover;
+}
+
+.Hot-dishes {
+	background-image: url(../../images/media-hot.jpg);
+	background-size: cover;
+}
+
+.Sauces {
+	background-image: url(../../images/media-sauses.jpg);
+	background-size: cover;
+}
+
+.Khavka {
+	background-image: url(../../images/media-coldfood.jpg);
+	background-size: cover;
+}
+
+.internal-text {
+	font-weight: 800;
+	font-size: 24px;
+	color: #fff;
+}
+
+.media__btn {
+	border: 2px solid rgba(255, 255, 255, 0.6);
+	border-radius: 5px;
+	width: 229px;
+	height: 60px;
+	background: rgba(0, 0, 0, 0.65);
+	font-weight: 900;
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #fff;
+	transition: 0.08s ease;
+	-webkit-tap-highlight-color: transparent;
+}
+
+.media__btn:active {
+	background: rgba(0, 0, 0, 0.75);
+	-webkit-tap-highlight-color: transparent;
+}

@@ -1,0 +1,36 @@
+.gallery {
+	display: flex;
+	background-color: black;
+	padding-bottom: 20px;
+}
+
+.gallery__container {
+	display: flex;
+}
+
+.gallery__content {
+	display: flex;
+}
+
+.gallery__list {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 2px;
+}
+
+.gallery__item {
+	display: block;
+	flex-shrink: 0;
+	overflow: hidden;
+}
+
+.gallery-img {
+	display: block;
+	margin: 0;
+	padding: 0;
+	transition: transform 0.3s ease;
+}
+
+.hover-all-directions:hover img {
+	transform: scale(1.1) translate(10px, 10px) rotate(0deg);
+}
